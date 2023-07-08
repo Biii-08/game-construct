@@ -1,0 +1,56 @@
+#hero .gradient-bg {
+    background-image:
+      linear-gradient(
+        to right,
+        #6A35EE 0%,
+        #9930EF 100%, 
+        #5737EE 100%, 
+        #795CEB 100%)
+  }
+  
+  #hero .text-wrapper{
+  -webkit-text-stroke: 2px #795CEB;
+    color: #FFF;
+    line-height:111%;
+    font-weight: 800;
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  #hero .button-grad {
+    background: linear-gradient(
+      #6a35ee 100%,
+      #9930ef 100%,
+      #5737ee 100%,
+      #795ceb 100%
+    );
+  }
+
+  @media screen and (max-width: 1629px) {
+    #hero .texts{
+        top: 250px;  
+    }
+}
+
+
+@media screen and (max-width: 1311px) {
+    #hero .texts .paragraph{
+       display: none;
+    }
+}
+@media screen and (max-width: 1023px) {
+    #hero .texts {
+        top: 100px;
+      
+    }
+}
+@media screen and (max-width: 700px) {
+    #hero .texts {
+        top: 70px;
+      
+    }
+}
+@media screen and (max-width: 1023px) {
+    #hero .button-grad {
+       margin-top: 36px ;
+      
+    }
+}

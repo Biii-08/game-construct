@@ -1,0 +1,54 @@
+@media screen and (max-width:1629px) {
+    #navbar .host{
+      font-size:10px;
+      top:8px;
+      gap: 12px;
+      right:4;
+      
+    }
+    #navbar .icons{
+      width: 40px;
+      gap:6px;
+    }
+  }
+  @media screen and (max-width:1267px) {
+    #navbar .icons{
+      width: 21px;
+      top:12px;
+      font:15px; 
+  
+    }
+    #navbar .listed .navs{
+      gap: 15px;
+    }
+    #navbar .image{
+      gap:60px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+      #navbar .image .logo{
+        width: 110px;
+        height: 70px;
+       
+      }
+      #navbar .menu{
+        display: block;
+      }
+  }
+  
+  @media screen and (max-width:639px) {
+    #navbar .host{
+     right:25px;
+     gap:3px;
+    }
+    #navbar .icons{
+      width:10px;
+      gap:3px;
+    }
+  }
+  @media screen and (max-width:639px) {
+    #navbar .listed .navs{
+      display: none;
+    }
+  }
