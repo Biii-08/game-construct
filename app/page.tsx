@@ -7,15 +7,22 @@ import Authentic from '../components/Authentic';
 import Grow from '../components/Grow';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import '../styles/globals.css';
 
 const Page = () => {
   return (
-    <div>
+    <div className='bg-[#0B0620]'>
       <Hero />
       <Navbar />
+      
       <Carasoul />
+      <div className='relative'>
+     
       <Games/>
+      <div className='gradient-01 z-0'/>
+     
       <Authentic />
+      </div>
       <Grow />
       <Contact />
       <Footer />

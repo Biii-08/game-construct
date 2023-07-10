@@ -1,3 +1,30 @@
-#grow .gradient-bg{
-    
+.gradient-bg{
+  position: relative;
+    background-image: url('/assets/image/growbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-items: center;
+}
+  
+.h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 42.667px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 126%;
+    letter-spacing: 0.853px;
+  
+}
+.sub{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 21.333px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123%;
+    text-align: center;
 }

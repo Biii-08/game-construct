@@ -1,39 +1,7 @@
 import React from 'react';
 import '../styles/games.css'
-
+import { gameItems } from '../constants'
 const Games = () => {
-  const gameItems = [
-    {
-      imgUrl: '/assets/image/fortnite.png',
-      title: 'Velvet Games',
-      subtitle: '',
-      price: '$13.99',
-    },
-    {
-      imgUrl: '/assets/image/skillgame.png',
-      title: 'Mobile Skill Games',
-      subtitle: 'Golden City',
-      price: '$13.99',
-    },
-    {
-      imgUrl: '/assets/image/servergame1.png',
-      title: 'Server Game system',
-      subtitle: 'Galaxy World',
-      price: '$10.99',
-    },
-    {
-      imgUrl: '/assets/image/mobilegame.png',
-      title: 'Mobile Games',
-      subtitle: 'Orion Stars',
-      price: '$45.00',
-    },
-    {
-      imgUrl: '/assets/image/servergame.png',
-      title: 'Server Game System',
-      subtitle: 'Orion Stars',
-      price: '$99.99',
-    },
-  ];
 
   return (
     <div id='games' className='bg-[#0B0620]'>
@@ -44,17 +12,22 @@ const Games = () => {
           </h1>
         </div>
       </div>
-      <div className='flex flex-row'>
-        {gameItems.map((item, index) => (
-          <div key={index}>
-            <img src={item.imgUrl} alt={item.title} />
-            <h2>{item.title}</h2>
-            <p>{item.subtitle}</p>
-            <p>{item.price}</p>
-          </div>
-        ))}
-      </div>
+     <div>
+      {[...Array(3)].map((_, index) => (
+        <div key={index} className='flex flex-row justify-center gap-[50px] mt-[77px]'>
+          {gameItems.map((item, itemIndex) => (
+            <div key={itemIndex}>
+              <img src={item.imgUrl} alt={item.title} className='w-[306.67px] h-[400px]' />
+              <h2>{item.title}</h2>
+              <p>{item.subtitle}</p>
+              <p>{item.price}</p>
+            </div>
+          ))}
+        </div>
+      ))}
     </div>
+
+  </div>
   );
 };
 

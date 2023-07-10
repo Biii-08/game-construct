@@ -1,0 +1,15 @@
+.form .gradient-button{
+    background: linear-gradient(180deg, #6B81FA 0%, #2742F5 100%);
+    border-radius: 10.667px;
+    border: 1.333px solid rgba(255, 255, 255, 0.40);
+    display: flex;
+    width: 674.667px;
+    justify-content: center;
+    align-items: center;
+   
+    
+    }
+    .customborder{
+        border: 1.333px solid rgba(255, 255, 255, 0.20);
+
+    }

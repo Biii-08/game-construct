@@ -1,0 +1,47 @@
+.background {
+    position: relative;
+    background-image: url('/assets/image/authenticbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-items: center;
+  }
+  
+.gradient-border{
+  border: 4px solid;
+  border-image: linear-gradient(to right, #E859FF 79%, #5D63FE 100%, #FF5959 0%);
+  border-image-slice: 1;
+}
+
+.heading{
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 42.667px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 126%;
+  letter-spacing: 0.853px;
+  
+}
+.title{
+  color: #FFF;
+font-family: Mulish;
+font-size: 26.667px;
+font-style: normal;
+font-weight: 700;
+line-height: 119%;
+text-transform: uppercase;
+}
+.subtitle{
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 18.667px;
+font-style: normal;
+font-weight: 500;
+line-height: 111%;
+display: flex;
+width: 361.333px;
+flex-direction: column;
+}

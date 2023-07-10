@@ -5,12 +5,12 @@ import '../styles/globals.css';
 const Hero = () => {
   return (
     <div id='hero' className='relative '>
-        <div className='relative '>
+        <div className='relative'>
             <img
               src='/assets/image/hero.png'
               alt='hero'
-              className='gradient-bg shadow-xl'
-              style={{ width: '100%', height: 'auto' }}
+              className='gradient-bg shadow-xl bottom-0'
+              style={{ width: '100%', height: '100%' }}
             />
 
             <div className='absolute top-[314.5px] flex justify-center flex-col items-center w-full texts'>
