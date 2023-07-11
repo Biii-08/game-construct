@@ -3,7 +3,7 @@
 }
 .c-border-2{
     border-top: 0.667px solid rgba(255, 255, 255, 0.20);
-    width: 1653px;
+   
 }
 .game{
     color: #FFF;
@@ -24,3 +24,11 @@
     line-height: 123%;
     text-transform: uppercase;
 }
+.button-grad {
+    background: linear-gradient(
+      #6a35ee 100%,
+      #9930ef 100%,
+      #5737ee 100%,
+      #795ceb 100%
+    );
+  }

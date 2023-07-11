@@ -12,4 +12,12 @@
     .customborder{
         border: 1.333px solid rgba(255, 255, 255, 0.20);
 
+
+    }
+
+    @media screen and (max-width: 714px ) {
+        #contact .form .gradient-button{
+            width: 358px;
+        }
+        
     }

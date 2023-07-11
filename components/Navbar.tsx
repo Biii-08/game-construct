@@ -7,6 +7,7 @@ const Navbar = () => {
     <div className='top-0 absolute w-full overflow-hidden ' id='navbar'>
       <div className='flex gap-[98px] image'>
         
+        
         <div className='flex flex-start ml-[41px] sm:mt-[44px] mt-0' >
             <img
             src ='/assets/image/logo.png' 
@@ -27,6 +28,12 @@ const Navbar = () => {
         </div>
 
         <div className='flex items-center gap-[29px] absolute right-[69px] top-[45px] host'>
+                   <button className="w-[154.448px] h-[41.719px] button-grad mr-[20px] hidden xl:inline rounded-l-full ">
+                      Distributors
+                    </button>
+                    <button className="w-[154.448px] h-[41.719px] button-grad mr-[250px] rounded-r-full">
+                      Store Agents
+                    </button>
             <p className='md:text-[15px] sm:text-[10px] lg:text-[35px]'>+1(833) 767 -HOST</p>
             <div className='gap-[24px] flex flex-row icons'>
               <img src='/assets/image/arrow.png' className='w-[72.28px] ' />

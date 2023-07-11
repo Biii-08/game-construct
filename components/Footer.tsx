@@ -5,7 +5,7 @@ import { BsTwitter, BsFacebook, BsInstagram } from 'react-icons/bs';
 const footer = () => {
   return (
     <div className='c-border  '>
-        <div className='flex flex-row gap-[133px] justify-center  mt-[42px] '>
+        <div className='flex lg:flex-row flex-col gap-[133px] justify-center  mt-[42px] '>
 
             <div className='flex flex-col'>
                <h1 className='game'>GAME</h1>
@@ -38,7 +38,7 @@ const footer = () => {
 
         </div>
 
-        <div className='flex flex-row justify-center gap-[74.67px] mt-[64px] mb-[64px]'>
+        <div className='flex lg:flex-row flex-col justify-center gap-[74.67px] mt-[64px] mb-[64px]'>
           <img
            src="/assets/image/amoa.png" 
            alt="amoa logo" 
@@ -52,7 +52,7 @@ const footer = () => {
           <img
            src="/assets/image/tick.png" 
            alt="gaming labs certified" 
-           className=' w-[ 158.667px] h-[54px] '
+           className=' w-[158.667px] h-[54px] '
           />
           <img
            src="/assets/image/n.png" 
@@ -61,10 +61,10 @@ const footer = () => {
           />
 
         </div>
-
-        <div className='flex flex-row justify-center  w-auto'>
-          <div className='c-border-2 w-auto flex flex-row gap-[190px]'>
-            <ul  className='flex flex-row gap-[42.67px] mt-[42.67px] mb-[42.67px] ' >
+ 
+        <div className='flex lg:flex-row flex-col justify-center  w-auto'>
+          <div className='c-border-2 w-auto flex lg:flex-row flex-col justify-between'>
+            <ul  className='flex lg:flex-row flex-col gap-[42.67px] mt-[42.67px] mb-[42.67px] ' >
               <li>Terms Of Use</li>
               <li>How It Works</li>
               <li>Getting Started</li>
